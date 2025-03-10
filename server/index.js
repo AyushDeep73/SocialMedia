@@ -46,7 +46,7 @@ io.on("connection", (socket) =>{
 
 const PORT = 6001;
 
-mongoose.connect('mongodb://localhost:27017/socialeX', { 
+mongoose.connect('mongodb+srv://Charu:Charu2004@myatlasclusteredu.oxswp.mongodb.net/?retryWrites=true&w=majority&appName=myAtlasClusterEDU', { 
         useNewUrlParser: true,
         useUnifiedTopology: true,
     }
